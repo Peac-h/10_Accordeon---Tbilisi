@@ -6,7 +6,7 @@ This is a small project and my first touch with css animations. Made fully respo
 
 ## Checkout the live demo
 
-[CSS Accordeon - Tbilisi]()
+[CSS Accordeon - Tbilisi](https://peac-h.github.io/10_Accordeon---Tbilisi/)
 
 ## Built with
 
