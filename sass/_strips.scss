@@ -1,0 +1,64 @@
+.frame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .strips {
+    display: flex;
+    gap: 1rem;
+    height: 50rem;
+    width: 80rem;
+
+    @media (any-hover: none), only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      height: 300rem;
+      gap: 4rem;
+    }
+
+    .strip-1 {
+      background-image: url(../images/ana-khutsishvili-8RqkxjqwBqg-unsplash.jpg);
+      background-position: center;
+    }
+    .strip-2 {
+      background-image: url(../images/tbel-abuseridze-mtiR4bNf1oA-unsplash.jpg);
+      background-position: center;
+    }
+    .strip-3 {
+      background-image: url(../images/nina-matcharashvili-lfYV4tgecow-unsplash.jpg);
+    }
+    .strip-4 {
+      background-image: url(../images/dmitry-rodionov-qWReAj44xdg-unsplash.jpg);
+      background-position: center;
+    }
+    .strip-5 {
+      background-image: url(../images/savelie-antipov-Z2kU9TXwQFM-unsplash.jpg);
+      background-position: center;
+    }
+    .strip-6 {
+      background-image: url(../images/artemis-faul-IqFFG4edgH8-unsplash.jpg);
+      background-position: right;
+    }
+    .strip-7 {
+      background-image: url(../images/yuri-krupenin-xNFjMef21Do-unsplash.jpg);
+      background-position: center;
+    }
+
+    .strip {
+      flex: 1;
+      border-radius: 1rem;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      transition: 0.5s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+
+      &:hover {
+        flex: 9;
+
+        @media (any-hover: none), only screen and (max-width: $bp-small) {
+          flex: 1;
+        }
+      }
+    }
+  }
+}
