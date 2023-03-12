@@ -8,6 +8,8 @@ This is a small project and my first touch with css animations. Made fully respo
 
 [CSS Accordeon - Tbilisi](https://peac-h.github.io/10_Accordeon-Tbilisi/)
 
+![CSS Accordeon with Pictures of Tbilisi](https://raw.githubusercontent.com/Peac-h/10_Accordeon-Tbilisi/main/Screenshot.png)
+
 ## Built with
 
 - html
